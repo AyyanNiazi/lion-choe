@@ -14,8 +14,8 @@ const  styles = StyleSheet.create({
         backgroundColor:'#ffffff',
         height:'260px',
         position:'absolute',
-        top:'15.31%',
-        bottom:'0px'
+        right:0,
+        top:0
     }
   });
 

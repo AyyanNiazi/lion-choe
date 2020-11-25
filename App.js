@@ -5,7 +5,8 @@ import {
   StyleSheet,
   Image,
   Alert,
-  Button
+  Button,
+  TouchableOpacity
 } from "react-native";
 import Constants from "expo-constants";
 import firebase from "./config/fire";
@@ -72,23 +73,31 @@ class App extends React.Component {
                   name="Tutor Account"          
                   options={
                     {
-                      title:'Chat App',
-                    
-                      headerRight:()=>{
-                        <Button
-                        onPress={() => alert('This is a button!')}
-                        title="Info"
-                        
-                      />
-                      }
+                      title:'그룹 스터디 광고',
+                      headerTitleStyle: { 
+                        textAlign:"center", 
+                        flex:1 ,
+                        fontFamily:'NanumGothic',
+                        fontWeight:700,
+                        fontSize:16
+                    },
+                    // headerright
+                    headerRight: () => (
+                      <TouchableOpacity>
+                         <Image
+                            style={{width:20,height:20,marginRight:20}}
+                            source={require('./assets/image/icon_bar.png')}
+                        />
+                      </TouchableOpacity>
+                  ),
                     }
                   }       
                   component={Chat}
                 />
-                   {/* <RootStack.Screen
-                  name="Tutor Account"                 
+                   <RootStack.Screen
+                  name="new screen"                 
                   component={Chat}
-                /> */}
+                />
             </RootStack.Navigator>       
           </NavigationContainer>
 
