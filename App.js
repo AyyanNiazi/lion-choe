@@ -8,10 +8,7 @@ import {
   Button,
   TouchableOpacity
 } from "react-native";
-import Constants from "expo-constants";
-import firebase from "./config/fire";
-import { Provider } from "react-redux";
-import store from "./store/store";
+
 
 // You can import from local files
 // import Quiz from "./components/quiz";

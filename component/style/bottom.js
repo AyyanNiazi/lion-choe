@@ -13,9 +13,10 @@ const  styles = StyleSheet.create({
         width:'100%',
         backgroundColor:'#ffffff',
         height:'260px',
-        position:'absolute',
-        right:0,
-        top:0
+        flex:1,
+        display:'flex',
+        flexDirection:'column',
+        justifyContent:'flex-end'
     }
   });
 
