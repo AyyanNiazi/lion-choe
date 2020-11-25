@@ -83,7 +83,7 @@ class App extends React.Component {
                       <TouchableOpacity>
                          <Image
                             style={{width:20,height:20,marginRight:20}}
-                            source={require('./assets/image/icon_bar.png')}
+                            source={require('./assets/image/menu.svg')}
                         />
                       </TouchableOpacity>
                   ),

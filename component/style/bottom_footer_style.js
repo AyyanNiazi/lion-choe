@@ -18,11 +18,11 @@ const  styles = StyleSheet.create({
    },
   //  inner:{textAlign:'center',display:'flex',justifyContent:'center',marginRight:10},
    tinyLogo: {
-    width: 20,
+     width: 20,
     height: 20,
     textAlign:'center',    
     margin:10,
-    marginLeft:25,
+    marginLeft:33,
   },
   text:{
     color:'#8D8D8D',
@@ -36,7 +36,8 @@ const  styles = StyleSheet.create({
   _dots_divider:{
     display:'flex',
     flexDirection:'row',
-    justifyContent:'center'
+    justifyContent:'center',
+    marginTop:10
   },
   _dots:{
     backgroundColor:'#747474',
@@ -53,7 +54,8 @@ const  styles = StyleSheet.create({
     // margin:20
   },
   element:{
-    width:80
+    width:80,
+    marginBottom:10,
   }
   });
 

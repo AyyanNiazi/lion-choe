@@ -59,12 +59,13 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "row",
     alignItems: "center",
-    paddingVertical: 16,
+    paddingVertical: 12,
     paddingHorizontal: 26,
     backgroundColor: "#FFFCFC",
     border: "1px solid #EEEEEE",
     boxSizing: "border-box",
-    boxShadow: "2px -2px 10px rgba(0, 0, 0, 0.04)"
+    boxShadow: "2px -2px 10px rgba(0, 0, 0, 0.04)",
+    maxHeight:60,
   },
   inputAdd: {
     width: 21,

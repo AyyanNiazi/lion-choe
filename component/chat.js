@@ -16,7 +16,7 @@ export default class Chat extends Component {
 
   render() {
     return (
-      <View>
+      <View style={{flex:1}} >
         <ScrollView style={styles.chatTopContainer}>
           <View>
             <Image
@@ -34,7 +34,7 @@ export default class Chat extends Component {
           </View>
         </ScrollView>
         <View style={styles.inputContainer}>
-          <View style={{ width: "10%" }}>
+          <View style={{ width: "10%", }}>
             <Image
               source={require("../assets/image/Frame.png")}
               style={styles.inputAdd}

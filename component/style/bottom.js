@@ -13,10 +13,11 @@ const  styles = StyleSheet.create({
         width:'100%',
         backgroundColor:'#ffffff',
         height:'260px',
-        flex:1,
+        // flex:1,
         display:'flex',
+        flexGrow: 1,
         flexDirection:'column',
-        justifyContent:'flex-end'
+        justifyContent:'space-between'
     }
   });
 

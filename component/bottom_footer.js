@@ -10,7 +10,13 @@ export default class Text_area extends Component {
                 <View style={styles.footer_main} >
                     <View style={styles.element}>
                         <Image
-                            style={styles.tinyLogo}
+                            style={
+                              {     width: 20,
+                                    height: 20,
+                                    textAlign:'center',    
+                                    margin:10,
+                                    marginLeft:32,
+                            }}
                             source={require('../assets/image/gallery.png')}
                         />
                         <Text  style={{
@@ -20,13 +26,19 @@ export default class Text_area extends Component {
                                 fontSize:11,
                                 textAlign:'center',
                                 padding:10,
-                                marginLeft:10
+                                marginLeft:5
                               
                         }} >사진</Text>
                     </View>
                     <View style={styles.element} >
                         <Image
-                            style={styles.tinyLogo}
+                             style={{
+                                width: 20,
+                               height: 20,
+                               textAlign:'center',    
+                               margin:10,
+                               marginLeft:30,
+                        }}
                             source={require('../assets/image/file.png')}
                         />
                         <Text   style={{
@@ -36,7 +48,7 @@ export default class Text_area extends Component {
                                 fontSize:11,
                                 textAlign:'center',
                                 padding:10,
-                                marginLeft:10
+                                marginLeft:0
                               
                         }} >파일</Text>
                     </View>
@@ -49,7 +61,13 @@ export default class Text_area extends Component {
                     </View>
                     <View style={styles.element} >
                         <Image
-                            style={styles.tinyLogo}
+                              style={{
+                                width: 24,
+                               height: 20,
+                               textAlign:'center',    
+                               margin:10,
+                               marginLeft:28,
+                        }}
                             source={require('../assets/image/envelope.png')}
                         />
                         <Text  style={styles.text} >결과물 제출</Text>
@@ -57,7 +75,13 @@ export default class Text_area extends Component {
 
                     <View style={styles.element} >
                         <Image
-                            style={styles.tinyLogo}
+                            style={{
+                                    width: 25,
+                                   height: 20,
+                                   textAlign:'center',    
+                                   margin:10,
+                                   marginLeft:32,
+                            }}
                             
                             source={require('../assets/image/person.png')}
                         />
@@ -65,7 +89,13 @@ export default class Text_area extends Component {
                     </View>
                     <View style={styles.element}>
                         <Image
-                            style={styles.tinyLogo}
+                              style={{
+                                width: 20,
+                               height: 20,
+                               textAlign:'center',    
+                               margin:10,
+                               marginLeft:28,
+                        }}
                             source={require('../assets/image/restrict.png')}
                         />
                         <Text  style={styles.text} >거래종료</Text>
